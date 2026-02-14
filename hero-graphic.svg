@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <defs>
+    <style>
+      .bubble { fill: #008891; opacity: 0.9; }
+      .bubble-secondary { fill: #e0e0e0; opacity: 0.9; }
+      .symbol { fill: #fff; font-family: serif; font-size: 60px; font-weight: bold; }
+    </style>
+  </defs>
+  
+  <!-- Secondary Bubble (Right/Back) -->
+  <path class="bubble-secondary" d="M120,40 c0,-20 -15,-35 -35,-35 c-20,0 -35,15 -35,35 c0,15 9,28 22,33 l-5,15 l20,-10 c2,0 5,0 7,0 c20,0 35,-15 35,-35 z" transform="translate(40, 0)"/>
+  
+  <!-- Primary Bubble (Left/Front) -->
+  <path class="bubble" d="M100,50 c0,-25 -20,-40 -45,-40 c-25,0 -45,15 -45,40 c0,18 10,33 25,38 l-5,15 l20,-10 c2,0 5,0 7,0 c25,0 45,-15 45,-40 z" transform="translate(10, 10)"/>
+  
+  <!-- Section Symbol -->
+  <text x="45" y="75" class="symbol">§</text>
+</svg>
